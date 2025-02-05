@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #f5f5dc;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #6b4226;
+    padding: 20px;
+}
+header img {
+    height: 50px;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+nav ul li {
+    display: inline;
+}
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+#mission {
+    background: url('resources/img-mission-background.webp') center/cover;
+    padding: 50px 20px;
+    color: white;
+}
+.tea-container, .locations-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+.tea-item, .location {
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    width: 250px;
+    text-align: center;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+.tea-item img, .location img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+footer {
+    background-color: #6b4226;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+}
